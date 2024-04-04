@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Seja bem vindo a Calculadora Smart</h1>
+    </header>
+    <div id="calculator-container">
+        <main>
+            <form id="numeros">
+                <div id="numbers">
+                    <input type="number" id="number1" placeholder="1° Número da Operação"> <br>
+                    <input type="number" name="number2" id="number2" placeholder="2° Número da Operação">
+                </div>
+            </form>
+            <div id="operadores">
+                <input type="button" value="/" onclick="div()">
+                <input type="button" value="*" onclick="mult()">
+                <input type="button" value="+" onclick="soma()">
+                <input type="button" value="-" onclick="sub()">
+            </div>
+            <p id="resultado"></p>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
