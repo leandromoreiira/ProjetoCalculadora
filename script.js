@@ -27,3 +27,4 @@ function mult()
     let resultado   = parseFloat(n1)*parseFloat(n2);
     document.getElementById('resultado').innerHTML = `O resultado da sua multiplicação é ${resultado}`
 }
+

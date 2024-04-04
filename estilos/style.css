@@ -18,12 +18,27 @@ div#operadores input{
     height: 30px;
 }
 
-#calculator-container
-{
+#calculator-container{
     width: 400px;
-    height: 400px;
+    height: 141px;
     border: 1px solid black;
 }
+
+.visor-container{
+    background-color: rgba(95, 89, 89, 0.899);
+}
+
+.visor-bottom{
+    background-color: rgba(0, 0, 0, 0.942);
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.numbers{
+
+}
+
 p{
     color: rgb(253, 18, 18);
 }
